@@ -1,7 +1,8 @@
 #### 介绍
 
 基于Apt-T00ls二次开发工具，I Wanna Get All 安全工具, 严禁一切未授权漏洞扫描攻击
-\n其它途径使用工具或文章转发，请备注作者及工具地址来源。
+
+其它途径使用工具或文章转发，请备注作者及工具地址来源。
 
 ![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223101114978.png)
 
