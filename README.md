@@ -2,7 +2,7 @@
 
 基于Apt-T00ls二次开发工具，I Wanna Get All 安全工具
 
-![image-20240223101114978](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223101114978.png)
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223101114978.png)
 
 
 
@@ -46,15 +46,15 @@
 
 用友NC 漏洞检测 (选择OA类型 -- 选择漏洞 -- 输入URL -- 检测)
 
-![image-20240223102241624](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223102241624.png)
+![image-20240223102241624](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102241624.png)
 
 用友NC 漏洞利用(选择OA类型 -- 选择漏洞 -- 输入URL -- 输入命令 -- 执行)
 
-![image-20240223102353236](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223102353236.png)
+![image-20240223102353236](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102353236.png)
 
 用友NC 文件上传(选择OA类型 -- 选择漏洞 -- 输入URL -- 上传文件 -- 执行)
 
-![image-20240223102904034](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223102904034.png)
+![image-20240223102904034](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223102904034.png)
 
 #### MemShell模块
 
@@ -65,7 +65,7 @@
         5. 亿赛通XStream反序列化 集接口反序列化（测试环境）
         6.  用友NC内存马支持bypass脏数据传入，默认为100字节
 
-![image-20240223103147463](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223103147463.png)
+![image-20240223103147463](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223103147463.png)
 
 ##### 示例2：
 
@@ -73,19 +73,19 @@
 
 用友NC冰蝎内存马
 
-![image-20240223105521102](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223105521102.png)
+![image-20240223105521102](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223105521102.png)
 
 用友NC 哥斯拉内存马注入
 
-![image-20240223105914972](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223105914972.png)
+![image-20240223105914972](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223105914972.png)
 
 用友NC cmdEcho内存马注入
 
-![image-20240223110035708](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223110035708.png)
+![image-20240223110035708](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223110035708.png)
 
 用友NC 自定义内存马注入(使用蚁剑ClassByte字节码)，输入类名、Base64编码字节码、脏数据(可选)
 
-![image-20240223110851090](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223110851090.png)
+![image-20240223110851090](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223110851090.png)
 
 其余功能均可实现，不做展示。
 
@@ -93,33 +93,33 @@
 
 用友U8Cloud 冰蝎内存马注入（其余内存马均可实现注入）
 
-![image-20240223111206672](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223111206672.png)
+![image-20240223111206672](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111206672.png)
 
 用友U8Cloud cmdEcho内存马注入
 
-![image-20240223111318555](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223111318555.png)
+![image-20240223111318555](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111318555.png)
 
 ##### 示例4：
 
 冰蝎内存马payload 源码、base64 payload等生成展示(用友NC示例)
 
-![image-20240223104122068](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223104122068.png)
+![image-20240223104122068](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223104122068.png)
 
-![image-20240223104220406](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223104220406.png)
+![image-20240223104220406](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223104220406.png)
 
 #### Sqlmap模块
 
 ​     根据提示输入内容执行，集成调用sqlmap
 
-![image-20240223111623212](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223111623212.png)
+![image-20240223111623212](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223111623212.png)
 
 ##### 示例5：
 
 泛微CheckServer-Sql注入，检测漏洞存在后，将payload字段下内容保存为req文件，使用sqlmap模块构造参数
 
-![image-20240223130450098](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223130450098.png)
+![image-20240223130450098](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223130450098.png)
 
-![image-20240223131531476](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223131531476.png)
+![image-20240223131531476](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223131531476.png)
 
 #### Crypt模块
 
@@ -132,9 +132,9 @@
 
 用友NC数据库密码 加解密
 
-![image-20240223134600563](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223134600563.png)
+![image-20240223134600563](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134600563.png)
 
-![image-20240223134621644](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223134621644.png)
+![image-20240223134621644](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134621644.png)
 
 
 
@@ -144,9 +144,9 @@ classbyte字节码解码（class文件导入加解码，base64字节码编码解
 
 恶意类常用加解码方式: Base64-Gzip、Hex-Gzip等
 
-![image-20240223134655226](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223134655226.png)
+![image-20240223134655226](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134655226.png)
 
-![image-20240223134750702](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223134750702.png)
+![image-20240223134750702](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223134750702.png)
 
 #### TaskList模块
 
@@ -154,7 +154,7 @@ classbyte字节码解码（class文件导入加解码，base64字节码编码解
 
 ##### 示例8
 
-![image-20240223135223833](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223135223833.png)
+![image-20240223135223833](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223135223833.png)
 
 #### Command Create模块
 
@@ -162,7 +162,7 @@ classbyte字节码解码（class文件导入加解码，base64字节码编码解
 
 ##### 示例9
 
-![image-20240223135242674](C:\Users\34540\AppData\Roaming\Typora\typora-user-images\image-20240223135242674.png)
+![image-20240223135242674](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223135242674.png)
 
 #### 其他
 
