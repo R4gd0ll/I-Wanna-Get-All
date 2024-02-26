@@ -7,6 +7,7 @@
 使用工具前建议判断系统指纹框架，部分漏洞为接口探测存活判断是否成功，实际利用情况以执行情况为准
 
 很多误报还需要完善，欢迎各位提issues
+![image-jiaoliuqun](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/fa5eac58cb4e069a85e468045d60624.jpg)
 
 ![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223101114978.png)
 
