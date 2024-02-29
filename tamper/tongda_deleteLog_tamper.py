@@ -8,8 +8,6 @@ See the file 'LICENSE' for copying permission
 Author    :   R4gd0ll
 '''
 
-import re
-
 from lib.core.enums import PRIORITY
 
 __priority__ = PRIORITY.HIGHEST
