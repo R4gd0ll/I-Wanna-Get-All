@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MemshellController">
+   <children>
+      <FlowPane layoutX="-86.0" layoutY="-46.0" prefHeight="200.0" prefWidth="200.0" />
+      <ChoiceBox fx:id="OAType" layoutX="14.0" layoutY="14.0" prefHeight="37.0" prefWidth="243.0" />
+      <ListView fx:id="listview_interface" layoutX="14.0" layoutY="83.0" onMouseClicked="#listview_clicked" prefHeight="702.0" prefWidth="243.0" />
+      <ListView fx:id="listview_printType" layoutX="293.0" layoutY="83.0" onMouseClicked="#print_clicked" prefHeight="180.0" prefWidth="298.0" />
+      <TextArea fx:id="textArea_memshell" layoutX="800.0" layoutY="85.0" prefHeight="691.0" prefWidth="438.0" />
+      <TextField fx:id="memshell_url" layoutX="622.0" layoutY="14.0" prefHeight="37.0" prefWidth="476.0" promptText="url" />
+      <Button fx:id="inject_mem" layoutX="1119.0" layoutY="14.0" onMouseClicked="#Inj_clicked" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" text="注入">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <ChoiceBox fx:id="injectType" layoutX="293.0" layoutY="14.0" prefHeight="37.0" prefWidth="298.0" />
+      <TextArea fx:id="classbyte" layoutX="293.0" layoutY="344.0" prefHeight="441.0" prefWidth="476.0" promptText="输入恶意类classbyte的base64编码" />
+      <TextField fx:id="className" layoutX="338.0" layoutY="293.0" prefHeight="30.0" prefWidth="230.0" promptText="org.apache.R4gAPT"/>
+      <TextField fx:id="dirtyNum" layoutX="695.0" layoutY="293.0" prefHeight="30.0" prefWidth="74.0" promptText="100"/>
+      <Text layoutX="293.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="类名：" />
+      <Text layoutX="610.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="脏数据(个)：" />
+      <Button fx:id="getStr" layoutX="620.0" layoutY="123.0" onMouseClicked="#get_clicked" mnemonicParsing="false" prefHeight="100.0" prefWidth="151.0" text="生成">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

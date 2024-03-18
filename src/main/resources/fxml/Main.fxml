@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.stage.Stage?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="920.0" minWidth="1400.0" prefHeight="798.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+
+  <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="代理">
+            <items>
+              <MenuItem fx:id="proxySetupBtn" mnemonicParsing="false" text="代理" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="关于">
+            <items>
+              <MenuItem fx:id="about" mnemonicParsing="false" onAction="#showAbout" text="关于" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="图标">
+            <items>
+              <MenuItem fx:id="icon" mnemonicParsing="false" onAction="#showImage" text="图标" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+
+
+
+
+
+      <JFXTabPane prefHeight="894.0" prefWidth="1400.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+
+          <Tab text="POC" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="Att.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="MemShell" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="MemShell.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="Sqlmap" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="SqlMap.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="Crypt" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="Crypt.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="Tasklist" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="Tsklist.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="Command Create" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="commandCreate.fxml" />
+            </content>
+          </Tab>
+
+          <Tab text="About" style="-fx-font-family: Arial,'Microsoft YaHei',Serif">
+            <content>
+              <fx:include source="About.fxml" />
+            </content>
+          </Tab>
+
+
+        </tabs>
+      </JFXTabPane>
+   </children>
+
+</VBox>

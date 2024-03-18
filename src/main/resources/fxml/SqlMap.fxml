@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SqlmapController">
+   <children>
+      <Button fx:id="start" layoutX="815.0" layoutY="185.0" mnemonicParsing="false" onAction="#SqlStart" prefHeight="30.0" prefWidth="96.0" text="开始" />
+      <Button fx:id="clear" layoutX="1158.0" layoutY="185.0" mnemonicParsing="false" onAction="#clearinfo" prefHeight="30.0" prefWidth="96.0" text="清屏" />
+      <Button fx:id="stop" layoutX="988.0" layoutY="185.0" mnemonicParsing="false" onAction="#stop" prefHeight="30.0" prefWidth="96.0" text="结束" />
+      <TextArea fx:id="textArea_sqlmap" editable="false" layoutY="252.0" prefHeight="541.0" prefWidth="1268.0" promptText="sqlmap运行视图">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <Text layoutX="38.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="python : " />
+      <Text layoutX="37.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sqlmap : " />
+      <Text layoutX="42.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="target : " />
+      <Text layoutX="822.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tamper : " />
+      <Text layoutX="410.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dbtype : " textAlignment="RIGHT" />
+      <Text layoutX="419.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="post : " textAlignment="RIGHT" />
+      <Text layoutX="389.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="technique : " />
+      <Text layoutX="828.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="proxy : " />
+      <Text layoutX="815.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="define : " />
+      <TextField fx:id="pythonText" layoutX="109.0" layoutY="9.0" prefHeight="30.0" prefWidth="273.0" text="python2" />
+      <TextField fx:id="proxyText" layoutX="896.0" layoutY="61.0" prefHeight="30.0" prefWidth="358.0" promptText="http://127.0.0.1:8080" />
+      <TextField fx:id="tamperText" layoutX="896.0" layoutY="12.0" prefHeight="30.0" prefWidth="358.0" promptText="tamper.py" />
+      <TextField fx:id="techniqueText" layoutX="481.0" layoutY="118.0" prefHeight="30.0" prefWidth="318.0" promptText="T" />
+      <TextField fx:id="dbtypeText" layoutX="481.0" layoutY="61.0" prefHeight="30.0" prefWidth="318.0" promptText="Mysql" />
+      <TextField fx:id="targetText" layoutX="109.0" layoutY="115.0" prefHeight="30.0" prefWidth="273.0" promptText="url or req" />
+      <TextField fx:id="sqlmapText" layoutX="109.0" layoutY="58.0" prefHeight="30.0" prefWidth="273.0" promptText="D:\\sqlmap-1.6\sqmlap.py" />
+      <TextField fx:id="postText" layoutX="481.0" layoutY="12.0" prefHeight="30.0" prefWidth="318.0" promptText="id" />
+      <TextField fx:id="defineText" layoutX="896.0" layoutY="118.0" prefHeight="30.0" prefWidth="358.0" promptText="--dbs" />
+      <TextArea fx:id="textArea_exec" editable="false" layoutX="109.0" layoutY="160.0" prefHeight="79.0" prefWidth="690.0" />
+      <Text layoutX="29.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="执行效果 : " />
+   </children>
+</AnchorPane>
