@@ -27,7 +27,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 ![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/dnslog.png)
 
 
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/image-20240223101114978.png)
 
 
 
