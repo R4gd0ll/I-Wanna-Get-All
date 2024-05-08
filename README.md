@@ -13,7 +13,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 
 很多误报还需要完善，欢迎各位提issues
 
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/qun.jpg)
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/qun0508.jpg)
 
 
 #### 更新
