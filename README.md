@@ -1,5 +1,8 @@
 #### 介绍
 
+目前集成281漏洞，包括nday、1day（未公开poc）
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/update.png)
+
 java环境
 java version "1.8.0_121"
 Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
