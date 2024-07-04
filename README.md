@@ -1,7 +1,7 @@
 #### 介绍
 
-目前集成288漏洞，包括nday、1day（未公开poc）
-
+目前集成348漏洞，包括nday、1day（未公开poc）
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/20240704.png)
 
 java环境
 java version "1.8.0_121"
@@ -20,7 +20,17 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 
 #### 更新
 
-更新功能：dnslog配置、Jeecg token配置
+更新功能：Heapdump Sprider模块
+
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/heapdump.png)
+
+添加部分系统内存马注入功能
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/memshell-fr.png)
+
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/memshell-jeecg.png)
+
+
+dnslog配置、Jeecg token配置
 
 更新Jeecg-Boot模块，内置16个漏洞
 
