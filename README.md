@@ -1,7 +1,7 @@
 #### 介绍
 
 目前集成348漏洞，包括nday、1day（未公开poc）
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/20240704.png)
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/20240704-update.png)
 
 java环境
 java version "1.8.0_121"
