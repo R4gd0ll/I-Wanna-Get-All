@@ -24,24 +24,17 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 
 #### 更新
 
-更新功能：Heapdump Sprider模块
+更新漏洞
+帆软报表ReportServer漏洞
+帆软报表channel hsql黑名单绕过内存马注入
 
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/heapdump.png)
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/微信图片_20241010170522.png)
 
-添加部分系统内存马注入功能
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/memshell-fr.png)
+jeecg-boot testconnection pgsql内存马注入
 
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/memshell-jeecg.png)
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/微信图片_20241010170525.png)
 
-
-dnslog配置、Jeecg token配置
-
-更新Jeecg-Boot模块，内置16个漏洞
-
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/jeecgcheck.png)
-
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/dnslog.png)
-
+其他oa漏洞共37个        
 
 
 
