@@ -4,8 +4,8 @@
 
 集成memshell功能：用友NC、用友U8C、亿赛通、帆软channel、jeecgboot注入内存马。
 
-目前集成348漏洞，包括nday、1day（未公开poc）
-![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/20240704-update.png)
+目前集成385漏洞，包括nday、1day（未公开poc）
+![image-20240223101114978](https://github.com/R4gd0ll/I-Wanna-Get-All/blob/main/images/微信图片_20241010170514.png)
 
 java环境
 java version "1.8.0_121"
