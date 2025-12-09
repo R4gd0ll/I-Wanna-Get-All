@@ -1,4 +1,151 @@
-#### 介绍
+# I-Wanna-Get-All-vFinal
+
+本次I-Wanna-Get-All版本为发布最终版，漏洞数量470
+
+（1）增加List、JavaMSGenerator、Ysoserial、JeecgReportDatabase模块
+
+（2）优化漏洞检测方式，用友部分serial反序列化采用DNSLog与CmdEcho方式回显检测。
+
+（3）内置调用Dnslog平台接口并进行初始化，dnslog地址: http://www.dnslog.cn
+
+​		（若初始化失败以及未获取dnslog地址请检查网络情况，dns建议配置223.5.5.5）
+
+（4）优化HTTP请求配置，如若使用Jeecg后台漏洞，需指定token头
+
+​		漏洞细节均为个人收集并实现EXP，审计方式为patch补丁、公开代审文章、wpoc等等，多种漏洞实现后利用攻击。**代码不做混淆，可自行审取**。
+
+​		新增多种利用模块，集成及二开安全知名项目功能并添加个人安全研究成果，本地均实现利用。
+
+​		**一切未授权攻击均与本项目无关！后续更新维护仅供个人安研，不再发布**。
+
+开发者：R4gd0ll（https://github.com/R4gd0ll）
+
+贡献者：fedtryouts（https://github.com/fedtryouts）
+
+参考项目地址：
+
+https://github.com/pen4uin/java-memshell-generator
+
+https://github.com/su18
+
+https://github.com/whwlsfb/JDumpSpider
+
+![image-20251209100147501](image/I-Wanna-Get-All-vFinal/image-20251209100147501.png)
+
+## 1、工具改进
+
+
+
+## 2、更新亮点
+
+### （1）ATT模块
+
+无需多言
+
+![image-20251209100447693](image/I-Wanna-Get-All-vFinal/image-20251209100447693.png)
+
+### （2）DNSLog配置
+
+​	可通过初始化或手动获取dnslog，测试查看结果。XXE、JNDI、Serial反序列化漏洞均使用dnslog与echo方式进行检测。
+
+![image-20251209101905019](image/I-Wanna-Get-All-vFinal/image-20251209101905019.png)
+
+### （3）List批量检测模块
+
+目前调试不完善，但可以使用，IP地址数量限制最多10个。
+
+![image-20251209104027344](image/I-Wanna-Get-All-vFinal/image-20251209104027344.png)
+
+可以导出报告
+
+![image-20251209122259352](image/I-Wanna-Get-All-vFinal/image-20251209122259352.png)
+
+### （4）Memshell模块
+
+新增geoserver内存马注入功能，注入接口/wfs，2种方式
+
+新增“智联云采”内存马注入功能，注入接口/adpweb/verifyToken（参考链接https://forum.butian.net/share/4131）
+
+### （5）Ysoserial模块
+
+集成ysuserial-all的相关功能（参考链接https://github.com/su18）
+
+新增gadget  -  SpringBypassJDK17（参考链接https://fushuling.com/index.php/2025/08/21/%e9%ab%98%e7%89%88%e6%9c%acjdk%e4%b8%8b%e7%9a%84spring%e5%8e%9f%e7%94%9f%e5%8f%8d%e5%ba%8f%e5%88%97%e5%8c%96%e9%93%be/）
+
+需配置高版本jdk17，直接生成
+
+Gadget用法 :     usage1: SpringBypassJDK17 --- CMD-cmd  --- payload: whoami
+usage2: SpringBypassJDK17 --- LF-DefineClassFile --- choose classfile
+usage3: SpringBypassJDK17--- MemShell
+usage4:  R4gd0ll change no params to run
+cmd ---- put header "cmd: whoami"
+memshell ---- put header "shell: [antsword|godzilla|behinder]"
+pass:123456,key:key
+
+![image-20251209105354646](image/I-Wanna-Get-All-vFinal/image-20251209105354646.png)
+
+测试环境可自行编写搭建
+
+![image-20251209105849537](image/I-Wanna-Get-All-vFinal/image-20251209105849537.png)
+
+![image-20251209105713344](image/I-Wanna-Get-All-vFinal/image-20251209105713344.png)
+
+![image-20251209110111614](image/I-Wanna-Get-All-vFinal/image-20251209110111614.png)
+
+### （6）JavaMSGenerator模块
+
+集成pen4uin师傅jmg项目（参考链接https://github.com/pen4uin/java-memshell-generator）
+
+额外添加若依interceptor内存马、（参考链接https://xz.aliyun.com/news/10099）
+
+classloader通用内存马、
+
+thymeleaf表达式绕过
+
+##### 示例1：（若依4.8.1 thymeleaf表达式命令回显）
+
+![image-20251209112628598](image/I-Wanna-Get-All-vFinal/image-20251209112628598.png)
+
+##### 示例2：（若依4.8.1 thymeleaf表达式注入内存马）
+
+方式：沙箱逃逸、新版本Spring spel表达式长度10000限制绕过、若依ApplicationContext注册问题
+
+注入内存马方式：SpringMVC--RuoYiInterceptor--thymeleaf表达式封装
+
+![image-20251209112455604](image/I-Wanna-Get-All-vFinal/image-20251209112455604.png)
+
+### （7）JeecgReportDatabase模块
+
+https://www.cve.org/CVERecord?id=CVE-2025-51825
+
+https://github.com/jeecgboot/JeecgBoot/issues/8335
+
+CVE编号：CVE-2025-51825（R4gd0ll）
+
+```
+3.8.0版本黑名单绕过接管数据库
+首次执行创建在线报表查询当前数据库,后续执行均使用当前报表
+配置当前使用数据库，防止非跨库表查询失败
+若执行失败建议使用自定义SQL语句
+勾选自定义SQL优先使用
+```
+
+拥有在线报表访问权限的任意用户，可绕过jeecg内置黑名单，实现数据库接管。
+
+![image-20251209113421722](image/I-Wanna-Get-All-vFinal/image-20251209113421722.png)
+
+### （8）powershell反弹shell最简命令
+
+采用utf-16、Bas64编码最简化windows反弹shell命令，解决多参困境
+
+![image-20251209113636728](image/I-Wanna-Get-All-vFinal/image-20251209113636728.png)
+
+
+
+
+
+
+#### 基本介绍
 
 集成漏洞系统包括：用友、泛微、蓝凌、万户、致远、通达、帆软、金蝶、金和、红帆、宏景、浪潮、普元、亿赛通、海康威视、飞企互联、大华DSS、jeecg-boot
 
