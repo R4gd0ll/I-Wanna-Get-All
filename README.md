@@ -36,7 +36,6 @@ https://github.com/whwlsfb/JDumpSpider
 
 ### （1）ATT模块
 
-无需多言
 
 ![image-20251209100447693](images/I-Wanna-Get-All-vFinal/image-20251209100447693.png)
 
