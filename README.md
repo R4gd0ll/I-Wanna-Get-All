@@ -18,9 +18,9 @@
 
 ​		**一切未授权攻击均与本项目无关！后续更新维护仅供个人安研，不再发布**。
 
-开发者：R4gd0ll（https://github.com/R4gd0ll）
+开发者：**R4gd0ll**（https://github.com/R4gd0ll）
 
-贡献者：fedtryouts（https://github.com/fedtryouts）
+贡献者：**fedtryouts**（https://github.com/fedtryouts）
 
 参考项目地址：
 
@@ -30,35 +30,31 @@ https://github.com/su18
 
 https://github.com/whwlsfb/JDumpSpider
 
-![image-20251209100147501](image/I-Wanna-Get-All-vFinal/image-20251209100147501.png)
+![image-20251209100147501](images/I-Wanna-Get-All-vFinal/image-20251209100147501.png)
 
-## 1、工具改进
-
-
-
-## 2、更新亮点
+## 更新亮点
 
 ### （1）ATT模块
 
 无需多言
 
-![image-20251209100447693](image/I-Wanna-Get-All-vFinal/image-20251209100447693.png)
+![image-20251209100447693](images/I-Wanna-Get-All-vFinal/image-20251209100447693.png)
 
 ### （2）DNSLog配置
 
 ​	可通过初始化或手动获取dnslog，测试查看结果。XXE、JNDI、Serial反序列化漏洞均使用dnslog与echo方式进行检测。
 
-![image-20251209101905019](image/I-Wanna-Get-All-vFinal/image-20251209101905019.png)
+![image-20251209101905019](images/I-Wanna-Get-All-vFinal/image-20251209101905019.png)
 
 ### （3）List批量检测模块
 
 目前调试不完善，但可以使用，IP地址数量限制最多10个。
 
-![image-20251209104027344](image/I-Wanna-Get-All-vFinal/image-20251209104027344.png)
+![image-20251209104027344](images/I-Wanna-Get-All-vFinal/image-20251209104027344.png)
 
 可以导出报告
 
-![image-20251209122259352](image/I-Wanna-Get-All-vFinal/image-20251209122259352.png)
+![image-20251209122259352](images/I-Wanna-Get-All-vFinal/image-20251209122259352.png)
 
 ### （4）Memshell模块
 
@@ -82,15 +78,15 @@ cmd ---- put header "cmd: whoami"
 memshell ---- put header "shell: [antsword|godzilla|behinder]"
 pass:123456,key:key
 
-![image-20251209105354646](image/I-Wanna-Get-All-vFinal/image-20251209105354646.png)
+![image-20251209105354646](images/I-Wanna-Get-All-vFinal/image-20251209105354646.png)
 
 测试环境可自行编写搭建
 
-![image-20251209105849537](image/I-Wanna-Get-All-vFinal/image-20251209105849537.png)
+![image-20251209105849537](images/I-Wanna-Get-All-vFinal/image-20251209105849537.png)
 
-![image-20251209105713344](image/I-Wanna-Get-All-vFinal/image-20251209105713344.png)
+![image-20251209105713344](images/I-Wanna-Get-All-vFinal/image-20251209105713344.png)
 
-![image-20251209110111614](image/I-Wanna-Get-All-vFinal/image-20251209110111614.png)
+![image-20251209110111614](images/I-Wanna-Get-All-vFinal/image-20251209110111614.png)
 
 ### （6）JavaMSGenerator模块
 
@@ -104,7 +100,7 @@ thymeleaf表达式绕过
 
 ##### 示例1：（若依4.8.1 thymeleaf表达式命令回显）
 
-![image-20251209112628598](image/I-Wanna-Get-All-vFinal/image-20251209112628598.png)
+![image-20251209112628598](images/I-Wanna-Get-All-vFinal/image-20251209112628598.png)
 
 ##### 示例2：（若依4.8.1 thymeleaf表达式注入内存马）
 
@@ -112,7 +108,7 @@ thymeleaf表达式绕过
 
 注入内存马方式：SpringMVC--RuoYiInterceptor--thymeleaf表达式封装
 
-![image-20251209112455604](image/I-Wanna-Get-All-vFinal/image-20251209112455604.png)
+![image-20251209112455604](images/I-Wanna-Get-All-vFinal/image-20251209112455604.png)
 
 ### （7）JeecgReportDatabase模块
 
@@ -132,13 +128,15 @@ CVE编号：CVE-2025-51825（R4gd0ll）
 
 拥有在线报表访问权限的任意用户，可绕过jeecg内置黑名单，实现数据库接管。
 
-![image-20251209113421722](image/I-Wanna-Get-All-vFinal/image-20251209113421722.png)
+![image-20251209113421722](images/I-Wanna-Get-All-vFinal/image-20251209113421722.png)
 
 ### （8）powershell反弹shell最简命令
 
 采用utf-16、Bas64编码最简化windows反弹shell命令，解决多参困境
 
-![image-20251209113636728](image/I-Wanna-Get-All-vFinal/image-20251209113636728.png)
+![image-20251209113636728](images/I-Wanna-Get-All-vFinal/image-20251209113636728.png)
+
+
 
 
 
