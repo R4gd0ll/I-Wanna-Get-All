@@ -60,13 +60,13 @@ https://github.com/whwlsfb/JDumpSpider
 
 新增geoserver内存马注入功能，注入接口/wfs，2种方式
 
-新增“智联云采”内存马注入功能，注入接口/adpweb/verifyToken（参考链接https://forum.butian.net/share/4131）
+新增“智联云采”内存马注入功能，注入接口/adpweb/verifyToken(参考链接https://forum.butian.net/share/4131)
 
 ### （5）Ysoserial模块
 
-集成ysuserial-all的相关功能（参考链接https://github.com/su18）
+集成ysuserial-all的相关功能(参考链接https://github.com/su18)
 
-新增gadget  -  SpringBypassJDK17（参考链接https://fushuling.com/index.php/2025/08/21/%e9%ab%98%e7%89%88%e6%9c%acjdk%e4%b8%8b%e7%9a%84spring%e5%8e%9f%e7%94%9f%e5%8f%8d%e5%ba%8f%e5%88%97%e5%8c%96%e9%93%be/）
+新增gadget  -  SpringBypassJDK17(参考链接https://fushuling.com/index.php/2025/08/21/%e9%ab%98%e7%89%88%e6%9c%acjdk%e4%b8%8b%e7%9a%84spring%e5%8e%9f%e7%94%9f%e5%8f%8d%e5%ba%8f%e5%88%97%e5%8c%96%e9%93%be/)
 
 需配置高版本jdk17，直接生成
 
@@ -92,9 +92,9 @@ pass:123456,key:key
 
 集成pen4uin师傅jmg项目（参考链接https://github.com/pen4uin/java-memshell-generator）
 
-额外添加若依interceptor内存马、（参考链接https://xz.aliyun.com/news/10099）
+额外添加若依interceptor内存马(参考链接https://xz.aliyun.com/news/10099)
 
-classloader通用内存马、
+classloader通用内存马
 
 thymeleaf表达式绕过
 
