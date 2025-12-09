@@ -1,0 +1,27 @@
+#
+# This is the Legacy8uJSSE provider security properties file.
+#
+# This property file replaces standard SunJSSE provider with Legacy8uJSSE
+# provider to fallback TLSv1.2 protocol functionality.
+# legacy8ujsse.security properties file may be specified
+# from the command line via the system property
+#
+#    -Djava.security.properties=<Path to openjsse.security>
+#
+# This properties file appends to the master security properties file.
+# If both properties files specify values for the same key, the value
+# from the command-line properties file is selected, as it is the last
+# one loaded.
+#
+# Also, if you specify
+#
+#    -Djava.security.properties==<URL> (2 equals),
+#
+# then that properties file completely overrides the master security
+# properties file.
+#
+
+#
+# Legacy8uJSSE security provider in place of SunJSSE provider:
+#
+security.provider.4=org.openjsse.legacy8ujsse.net.ssl.Legacy8uJSSE

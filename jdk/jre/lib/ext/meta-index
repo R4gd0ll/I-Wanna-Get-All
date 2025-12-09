@@ -1,0 +1,67 @@
+% VERSION 2
+% WARNING: this file is auto-generated; do not edit
+% UNSUPPORTED: this file and its format may change and/or
+%   may be removed in a future release
+! access-bridge-64.jar
+com/sun/java/accessibility/
+! cldrdata.jar
+sun/text
+sun/util
+# dnsns.jar
+sun/net
+META-INF/services/sun.net.spi.nameservice.NameServiceDescriptor
+! jaccess.jar
+com/sun/java/accessibility/
+# jfxrt.jar
+com/sun/media/
+com/sun/scenario/
+com/sun/glass/
+com/sun/pisces/
+javafx/print/
+javafx/application/
+javafx/fxml/
+com/sun/prism/
+javafx/css/
+javafx/util/
+javafx/collections/
+javafx/animation/
+com/sun/webkit/
+com/sun/openpisces/
+META-INF/INDEX.LIST
+com/sun/javafx/
+javafx/geometry/
+javafx/concurrent/
+javafx/scene/
+netscape/javascript/
+javafx/beans/
+javafx/event/
+javafx/embed/
+javafx/stage/
+# legacy8ujsse.jar
+META-INF/maven/org.openjsse.legacy8ujsse/legacy8ujsse/pom.xml
+META-INF/services/java.security.Provider
+org/openjsse/
+META-INF/maven/org.openjsse.legacy8ujsse/legacy8ujsse/pom.properties
+# localedata.jar
+sun/text
+sun/util
+# nashorn.jar
+META-INF/services/javax.script.ScriptEngineFactory
+jdk/nashorn
+jdk/internal
+# openjsse.jar
+META-INF/maven/org.openjsse/openjsse/pom.properties
+META-INF/maven/org.openjsse/openjsse/pom.xml
+META-INF/services/java.security.Provider
+org/openjsse/
+! sunec.jar
+sun/security
+! sunjce_provider.jar
+com/sun/crypto/
+! sunmscapi.jar
+sun/security
+! sunpkcs11.jar
+sun/security
+# zipfs.jar
+META-INF/services/java.nio.file.spi.FileSystemProvider
+com/sun/nio/
