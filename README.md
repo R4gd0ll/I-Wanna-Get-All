@@ -90,7 +90,7 @@ pass:123456,key:key
 
 ### （6）JavaMSGenerator模块
 
-集成pen4uin师傅jmg项目（参考链接https://github.com/pen4uin/java-memshell-generator）
+集成pen4uin师傅jmg项目(参考链接https://github.com/pen4uin/java-memshell-generator)
 
 额外添加若依interceptor内存马(参考链接https://xz.aliyun.com/news/10099)
 
