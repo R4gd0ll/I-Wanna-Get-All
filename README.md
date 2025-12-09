@@ -18,9 +18,9 @@
 
 ​		**一切未授权攻击均与本项目无关！后续更新维护仅供个人安研，不再发布**。
 
-开发者：**R4gd0ll**（https://github.com/R4gd0ll）
+开发者：**R4gd0ll**(https://github.com/R4gd0ll)
 
-贡献者：**fedtryouts**（https://github.com/fedtryouts）
+贡献者：**fedtryouts**(https://github.com/fedtryouts)
 
 参考项目地址：
 
